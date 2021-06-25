@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="../CSS/main.scss">
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -18,16 +19,75 @@
 </head>
 
 <body>
+    <!--If i put the h1 and h2 into the div, i cannot change the font size. The empty div i need
+    because of the background img-->
     <div class="herosection"></div>
-      
-    
     <h1 id="title">Restaurant Name</h1>
     <h2 id="motto"> Here we write our very creative motto.</h2>
-    <div class="container">
-        <h3>Starter</h3>
-        <h3>Main</h3>
-        <h3>Dessert</h3>
-        <h3>Drinks</h3>
+
+
+    <div id="font-content">
+
+        <h3 class="text-center">STARTERS</h3>
+        <div class="row d-flex justify-content-between align-items-center" id="img-row"> 
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center">
+                <img class="row img-fluid" src="../IMG/starter1.jpg" alt="Bruchetta">
+                <p class="text-center" id="caption"><strong>Bruchetta</strong><br>
+                    With tomatoes and garlic.<br>
+                    € 2,50
+                </p>
+            </div>
+            <!-- d-flex flex-column align-items-center -->
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center ">
+                <img class="row img-fluid" src="../IMG/starter2.jpg" alt="Pumpkin Soup">
+                <p class="text-center" id="caption"><strong>Bruchetta</strong><br>
+                    With tomatoes and garlic.<br>
+                    € 2,50
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center ">
+            <img class="row img-fluid" src="../IMG/starter3.jpg" alt="Panini">
+            <p class="text-center" id="caption"><strong>Bruchetta</strong><br>
+                With tomatoes and garlic.<br>
+                € 2,50
+            </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex flex-column align-items-center ">
+            <img class="row img-fluid" src="../IMG/starter4.jpg" alt="House Soup">
+            <p class="text-center" id="caption"><strong>Bruchetta</strong><br>
+                With tomatoes and garlic.<br>
+                € 2,50
+            </p>
+        </div>
+        </div>
+
+        <!-- <h3 class="text-center">MAIN</h3>
+        <div class="d-flex justify-content-between" id="img-row">
+            <img class="row img-fluid" src="../IMG/main1.jpg" alt="Lasagna">
+            <img class="row img-fluid" src="../IMG/main2.jpg" alt="Pasta">
+            <img class="row img-fluid" src="../IMG/main3.jpg" alt="Pizza">
+            <img class="row img-fluid" src="../IMG/main4.jpg" alt="Quiche">
+        </div>
+
+
+        <h3 class="text-center">DESSERT</h3>
+        <div class="d-flex justify-content-between" id="img-row">
+            <img class="row img-fluid" src="../IMG/dessert1.jpg" alt="Banan Split">
+            <img class="row img-fluid" src="../IMG/dessert2.jpg" alt="Chokolate Cake">
+            <img class="row img-fluid" src="../IMG/dessert3.jpg" alt="Tiramisu">
+            <img class="row img-fluid" src="../IMG/dessert4.jpg" alt="Kings Muffin">
+        </div>
+
+        <h3 class="text-center">DRINKS</h3>
+        <div class="d-flex justify-content-between" id="img-row">
+            <img class="row img-fluid" src="../IMG/drink1.jpg" alt="Coffee">
+            <img class="row img-fluid" src="../IMG/drink2.jpg" alt="Tea">
+            <img class="row img-fluid" src="../IMG/drink3.jpg" alt="Smoothie">
+            <img class="row img-fluid" src="../IMG/drink4.jpg" alt="Soda">
+        </div> -->
+
     </div>
 
     <!-- <div class="jumbotron text-white" id="footer" style="margin-bottom:0"> -->

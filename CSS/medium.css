@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1200px) and (min-width: 576px) {
+  .herosection {
+    height: 40em;
+    background-image: url("../IMG/bg2.jpg");
+    background-size: cover;
+    -webkit-box-shadow: inset 0 0 0 2000px rgba(44, 51, 29, 0.589);
+            box-shadow: inset 0 0 0 2000px rgba(44, 51, 29, 0.589);
+  }
+  #title {
+    font-size: 80pt !important;
+    margin: -4em 0 5em 1em;
+  }
+  #motto {
+    margin: -15em 0 10em 7em;
+  }
+  #font-content {
+    padding: 5%;
+    margin: -4em auto 0 auto;
+    width: 90% !important;
+  }
+}
+/*# sourceMappingURL=medium.css.map */
