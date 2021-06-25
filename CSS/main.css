@@ -1,0 +1,22 @@
+.herosection {
+  height: 50em;
+  background-image: url("../IMG/bg2.jpg");
+  background-size: cover;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(44, 51, 29, 0.589);
+          box-shadow: inset 0 0 0 2000px rgba(44, 51, 29, 0.589);
+}
+
+#title {
+  font-family: 'Alex Brush';
+  font-weight: bold;
+  font-size: 80pt !important;
+  margin: -4em 0 5em 5em;
+  color: whitesmoke;
+}
+
+#motto {
+  margin: -15em 0 10em 15em;
+  color: whitesmoke;
+  font-style: italic;
+}
+/*# sourceMappingURL=main.css.map */
