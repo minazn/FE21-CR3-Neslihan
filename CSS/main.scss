@@ -2,6 +2,7 @@
 @import url("../CSS/large.scss");
 @import url("../CSS/medium.scss");
 @import url("../CSS/small.scss");
+@import url("../CSS/xsmall.scss");
 
 #title{
     font-family: 'Alex Brush';
@@ -12,6 +13,7 @@
 #motto{
     color: whitesmoke;
     font-style: italic;
+    font-family: 'Amiko';
 }
 
 #font-content{
@@ -37,6 +39,21 @@ img{
     width: 96%; 
     padding: 5%;
 }
+
+#footer{
+    border-radius: 0;
+    background-color:  rgb(44, 51, 29);
+
+
+}
+
+#footer-link{
+   width: 20%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
 
 
 
