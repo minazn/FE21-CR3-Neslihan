@@ -4,12 +4,15 @@ function calculateInvoice(starterPrice,maindishPrice, dessertPrice, drinkPrice){
 
 }
 
-var starter = 3.5;
-var maindish = 8.9;
-var dessert = 3.5;
-var drink = 2.5;
+var starter = [3.9,3.5,4.9,2.5];
+var maindish = [8.9,8.9,7.5,9.9];
+var dessert = [4.5,3.5,3.5,4];
+var drink = [2.2,2.7,3,2.5];
 
-console.log("Thank you very much. Here you have your invoice: " + calculateInvoice(starter,maindish, dessert,drink));
+console.log("Thank you very much. Here you have your invoice: " + calculateInvoice(starter[0],maindish[3], dessert[2],drink[1]));
+
+
+
 
 var first_client = [0,8.9,0,3];
 var second_client = [3.9,0,0,2.2];
